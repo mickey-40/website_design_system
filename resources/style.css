@@ -4,14 +4,19 @@ h1, h2 {
 /* border for articles */
 .colors, .fonts, .text {
     border: solid red;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    
+    
 }
-
 
 section {
     display: inline-block;
-    padding: 1rem;
-    magrin: 10px;
     text-align: center;
+    margin: auto;
+    padding: 50px;
+    
 }
 .blue {
     background-color: rgb(19, 32, 204);
@@ -30,3 +35,61 @@ section {
     width: 200px;
     height: 200px;
 }
+
+/* Fonts */
+.font1, .font2, .font3 {
+    font-size: 16px;
+}
+
+.font1 {
+    font-family: 'Merriweather';
+    font-size: 16px;
+}
+
+.font1 .reg4 {
+    font-weight: 400;
+}
+
+.font1 .reg4it {
+    font-weight:  400;
+    font-style: italic;
+}
+
+.font1 .bold7 {
+    font-weight: 700;
+}
+
+.font2 {
+    font-family: 'Work Sans';
+}
+.font2 .reg4 {
+    font-weight: 400;
+}
+
+.font2 .med5 {
+    font-weight:  500;
+}
+
+.font2 .bold8 {
+    font-weight: 800;
+}
+
+
+.font3 {
+    font-family: 'Dongle';
+    font-size: 20px;
+
+}
+.font3 .reg3 {
+    font-weight: 300;
+}
+
+.font3 .reg4 {
+    font-weight:  400;
+}
+
+.font3 .bold7 {
+    font-weight: 700;
+}
+
+/* Text Styles */
